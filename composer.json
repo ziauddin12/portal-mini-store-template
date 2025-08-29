@@ -1,0 +1,21 @@
+{
+  "name": "dyad/scaffold-php-full",
+  "description": "Complete PHP Landing Pages Template - Full Version with 200+ Components",
+  "type": "project",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "php create_required_file.php",
+    "dev": "php -S localhost:8001 -t public/"
+  },
+  "require": {
+    "php": ">=8.0",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DyadFull\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
